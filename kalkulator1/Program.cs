@@ -15,6 +15,7 @@ namespace kalkulator1
                 Console.WriteLine("0. wYJSCIE");
                 Console.WriteLine("1. dodawanie");
                 Console.WriteLine("2. odejmowanie");
+                Console.WriteLine("3. mnożenie");
                 int menuOption = Convert.ToInt32(Console.ReadLine());
                 if (menuOption == 0)
                     break;
