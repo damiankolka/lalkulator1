@@ -13,9 +13,11 @@ namespace kalkulator1
             while (true)
             {
                 Console.WriteLine("0. wYJSCIE");
-                Console.WriteLine("0. dodawanie");
-                Console.WriteLine("0. odejmowanie");
+                Console.WriteLine("1. dodawanie");
+                Console.WriteLine("2. odejmowanie");
                 int menuOption = Convert.ToInt32(Console.ReadLine());
+                if (menuOption == 0)
+                    break;
             }
         }
     }
